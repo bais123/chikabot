@@ -15,7 +15,7 @@ const start = async () => {
 		font: 'Standard',
 		horizontalLayout: 'default',
 		vertivalLayout: 'default',
-		whitespaceBreak: false
+		whitespaceBreak: true
 	}), 'cyan'))
 	console.log(color('[ By Rashidsiregar28 ]'))
     // set level pino ke fatal kalo ga mau nampilin log eror
