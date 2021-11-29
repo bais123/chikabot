@@ -1,0 +1,50 @@
+{
+  "name": "wabase-md",
+  "version": "1.2.000",
+  "description": "Fatih Bot Multi Device .",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "postinstall": "npm i typescript -g && tsc -p ./node_modules/@adiwajshing/baileys-md/"
+  },
+  "keywords": [
+    "termux",
+    "whatsapp",
+    "2021",
+    "wabase-md",
+    "base",
+    "baileys-md",
+    "bot"
+  ],
+  "author": "zeeone & rashid",
+  "license": "MIT",
+  "dependencies": {
+    "@adiwajshing/baileys-md": "github:adiwajshing/baileys#multi-device",
+    "awesome-phonenumber": "^2.64.0",
+    "axios": "^0.24.0",
+    "cfonts": "^2.10.0",
+    "chalk": "^4.1.2",
+    "fetch": "^1.1.0",
+    "figlet": "^1.5.2",
+    "file-type": "^16.5.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "^4.0.0",
+    "fs": "0.0.1-security",
+    "moment-timezone": "^0.5.34",
+    "node-fetch": "^2.6.4",
+    "pino": "^7.2.0",
+    "util": "^0.12.4",
+    "xfarr-api": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeeoneofc/"
+  },
+  "bugs": {
+    "url": "https://github.com/zeeoneofc/"
+  },
+  "homepage": "https://github.com/zeeoneofc/"
+}
