@@ -1,31 +1,21 @@
 {
-  "name": "wabase-md",
-  "version": "1.2.000",
-  "description": "Fatih Bot Multi Device .",
+  "name": "alphabot-md",
+  "version": "1.0.0",
+  "description": "Simple whatsapp bot with multi device.",
   "main": "main.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "start": "node main.js",
-    "postinstall": "npm i typescript -g && tsc -p ./node_modules/@adiwajshing/baileys-md/"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
   },
-  "keywords": [
-    "termux",
-    "whatsapp",
-    "2021",
-    "wabase-md",
-    "base",
-    "baileys-md",
-    "bot"
-  ],
-  "author": "zeeone & rashid",
+  "author": "rashidsiregar28",
   "license": "MIT",
   "dependencies": {
     "@adiwajshing/baileys-md": "github:adiwajshing/baileys#multi-device",
     "awesome-phonenumber": "^2.64.0",
     "axios": "^0.24.0",
-    "cfonts": "^2.10.0",
     "chalk": "^4.1.2",
     "fetch": "^1.1.0",
     "figlet": "^1.5.2",
@@ -38,13 +28,5 @@
     "pino": "^7.2.0",
     "util": "^0.12.4",
     "xfarr-api": "^1.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zeeoneofc/"
-  },
-  "bugs": {
-    "url": "https://github.com/zeeoneofc/"
-  },
-  "homepage": "https://github.com/zeeoneofc/"
+  }
 }
